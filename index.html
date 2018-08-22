@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!---- This Programme is about how to create an accordion - a collapsible component ---->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!---- meta viewport used to make page responsive ---->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />	
+	<link rel="stylesheet" href="style.css" />	<!---- CSS embedded ---->
+</head>
+
+<body>
+<div class="container"> <!---- holds entire page ---->
+	<div class="header"><!---- header of page ---->
+		<h3>5 Indian scientists whose work shaped modern life</h3>
+		<h1>Incredible Indians</h1>
+	</div>
+	
+	<p>
+		The expansion of scientific contemplation in modern India can be credited to the scientists of the nineteenth century. They essentially shaped the way we live now and many of the scientific research work currently in progress follows the lead of these brilliant thinkers.
+
+	</p>
+
+	<p>
+		In the later half of the nineteenth century, Sir C V Raman brought about an extraordinary change in Indian scientific thinking. Dr Homi J Bhabha, known as the father of Indian Nuclear Physics, framed the future of Indian science. Dr J C Bose became a pioneer in the field of plant physiology, Dr Vikram Sarabhai developed the concept of atomic energy and industrialization, and Dr APJ Abdul Kalam contributed to the field of defence technology.
+
+	</p>
+
+	<div class="accordion"><!----container element for accordion- holding many sections ---->
+	
+		<div class="accordion-section"><!---- section holding button for title and another div for content---->
+			<button class="accordion-title" href="#accordion-1">01 Dr Chandrasekhara V Raman</button><!---- title of one section ---->
+
+			<div id="accordion-1" class="accordion-content"><!---- content of  section ---->
+				<img src="img/chandrasekhara.jpg" alt="Chandrasekhara image">
+				<p>
+					CV Raman was not only a great scientist but also believed in social development. In 1930, he won the Nobel Prize for Physics becoming the first Asian to do so. He is associated with the concept of Raman's Effect, which says that when a light passes through a transparent substance, it scatters.Raman studied the concept of broken light and observed that "there were two spectral lines of very low strength (strength) parallel to the incident monochromatic light." This proved that any broken light was not monochromatic in nature even though the incident light was monochromatic. When scientists were confused whether the form of light was like waves or like particles, the Raman Effect proved that light is made up of particles known as photons.
+				</p>
+			</div><!--content ends-->		
+		</div><!--section ends-->
+		
+		<div class="accordion-section"><!---- section holding button for title and another div for content---->
+			<button class="accordion-title" href="#accordion-2">02 Dr Jagadish Chandra Bose</button><!---- title of one section ---->
+
+			<div id="accordion-2" class="accordion-content"><!---- content of  section ---->
+				<img src="img/jagadish-chandra-bose.jpg" alt="Dr Jagadish Chandra Bose" ><!----image ---->
+				<p>
+					Dr Jagadish Chandra Bose is famous for the invention of the Crescograph that can record even the millionth part of a millimetre of plant growth and orbital movement. Dr Bose proved, by virtue of the Crescograph, that plants have a circulatory system. The Crescograph has also proved the fact that the upward movement of sap in plants is the doing of living cells.Moreover, he was also the inventor of wireless coherer which was later modified by Marconi as the radio.
+				</p>
+			</div><!--content ends-->		
+		</div><!--section ends-->
+		
+		<div class="accordion-section"><!---- section holding button for title and another div for content---->
+			<button class="accordion-title" href="#accordion-3">03 Dr Homi Jehangir Bhabha</button><!---- title of  section ---->
+
+			<div id="accordion-3" class="accordion-content"><!---- content of section---->
+				<img src="img/homi-bhabha.jpg" alt="Dr Homi Jehangir Bhabha" ><!---- image---->
+				<p>				
+					Dr Homi Jehangir Bhabha joined the Indian Institute of Sciences at Bangalore as a Reader at the request of Dr C V Raman. Soon, he became a Professor of Physics. It was here that he got the idea of building a research institute for some of the new areas of Physics. India's first atomic research centre, now known as the Bhabha Atomic Research Centre (BARC) was established at Trombay, where Bhabha became the first chairman in 1948. India's first atomic reactor, 'Apsara' was also established under his authority.
+				</p>
+			</div><!--content ends-->		
+		</div><!--section ends-->
+		
+		<div class="accordion-section"><!---- section holding button for title and another div for content---->
+			<button class="accordion-title" href="#accordion-4">04 Dr Vikram Ambalal Sarabhai</button><!---- title of  section ---->
+
+			<div id="accordion-4" class="accordion-content"><!---- content of section---->
+				<img src="img/vikram-ambalal-sarabhai.jpg" alt="Dr Vikram Ambalal Sarabhai" ><!---- image---->
+				<p>
+					Freshwater snails are gastropod mollusks which live in freshwater. There are many different
+					families. They are found throughout the world in various habitats, ranging from ephemeral pools
+					to the largest lakes, and from small seeps and springs to major rivers. The great majority of 
+					freshwater gastropods have a shell, with very few exceptions. Some groups of snails that live 
+					in freshwater respire using gills, whereas other groups need to reach the surface to breathe air.
+					Most feed on algae, but many are detritivors and some are filter feeders.
+				</p>
+			</div><!--content ends-->		
+		</div><!--section ends-->
+
+		<div class="accordion-section"><!---- section holding button for title and another div for content---->
+			<button class="accordion-title" href="#accordion-5">05 Dr A P J Abdul Kalam</button><!---- title of  section ---->
+
+			<div id="accordion-5" class="accordion-content"><!---- content of section---->
+				<img src="img/apj-kalam.jpg" alt=" Dr A P J Abdul Kalam" ><!---- image---->
+				<p>
+					Dr A P J Abdul Kalam, the eleventh President of India, was born on October 15, 1931. He was awarded the Bharat Ratna in 1997 for his contributions in the field of science and engineering. He developed the Satellite Launch Vehicle (SLV 3) at the Vikram Sarabhai Space Centre, which put the satellite Rohini into orbit.
+				</p>
+			</div><!--content ends-->		
+		</div><!--section ends-->
+	</div><!--accordion container ends-->
+
+
+	<div class="footer"><!---- routine footer---->
+		&copy Venkatesh Akula
+	</div>
+
+</div>
+<!---- embedding jquery minified and js file---->
+<script src="jquery-3.3.1.min.js" ></script>
+<script src="script.js"></script>
+</body>
+</html>
